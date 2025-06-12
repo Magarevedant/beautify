@@ -107,28 +107,28 @@ git clone https://github.com/Magarevedant/beautify.git
 
 ---
 
-# 🧑‍💻 Author
+## 🧑‍💻 Author
 
 Developed with ❤️ by Vedant Magare
 
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is licensed under the MIT License — free to use, modify, and distribute.
 
 
 ---
 
-# 🌐 Demo (Coming Soon)
+## 🌐 Demo (Coming Soon)
 
 A live demo or playground will be available soon!
 
 
 ---
 
-# 🙌 Contribute
+## 🙌 Contribute
 
 Have suggestions or improvements? PRs are welcome!
 
