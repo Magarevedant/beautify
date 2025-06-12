@@ -1,1 +1,10 @@
-h1{color: red;}
+/* beautify.css - Main entry point for Beautify CSS framework */
+
+/* Base setup: resets, variables, core layout */
+@import url('./base.css');
+
+/* Utility classes: spacing, flex, colors, text, etc. */
+@import url('./utilities.css');
+
+/* Pre-built UI components: buttons, cards, alerts, etc. */
+@import url('./components.css');
