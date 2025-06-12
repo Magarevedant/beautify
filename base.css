@@ -1,0 +1,158 @@
+/* =======================================================
+   Beautify.css – Base Styles
+   Includes:
+   - CSS Resets
+   - Root Variables
+   - Typography
+   - Layout Containers
+   - Accessibility Improvements
+======================================================= */
+
+/* ========== CSS Reset ========== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default button, input, etc. styles */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  color: inherit;
+}
+
+/* Anchor defaults */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Media */
+img, video, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========== Root Variables ========== */
+:root {
+  /* Typography */
+  --font-base: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Courier New', monospace;
+
+  /* Font Sizes */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+
+  /* Font Weight */
+  --fw-normal: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Colors */
+  --color-text: #111827;
+  --color-bg: #ffffff;
+  --color-muted: #6b7280;
+
+  /* Spacing Scale */
+  --space-0: 0rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  /* Breakpoints */
+  --screen-sm: 640px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+}
+
+/* ========== Body Defaults ========== */
+body {
+  font-family: var(--font-base);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-normal);
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* ========== Typography Defaults ========== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--fw-bold);
+  line-height: 1.25;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+
+h1 { font-size: var(--fs-2xl); }
+h2 { font-size: var(--fs-xl); }
+h3 { font-size: var(--fs-lg); }
+h4 { font-size: var(--fs-base); }
+h5 { font-size: var(--fs-sm); }
+h6 { font-size: var(--fs-xs); }
+
+p {
+  margin-bottom: var(--space-3);
+  color: var(--color-text);
+}
+
+small {
+  font-size: var(--fs-xs);
+  color: var(--color-muted);
+}
+
+/* ========== Layout Container ========== */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+}
+
+@media (min-width: var(--screen-sm)) { .container { max-width: 640px; } }
+@media (min-width: var(--screen-md)) { .container { max-width: 768px; } }
+@media (min-width: var(--screen-lg)) { .container { max-width: 1024px; } }
+@media (min-width: var(--screen-xl)) { .container { max-width: 1280px; } }
+
+/* ========== Accessibility Helpers ========== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  }
