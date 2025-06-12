@@ -8,3 +8,6 @@
 
 /* Pre-built UI components: buttons, cards, alerts, etc. */
 @import url('./components.css');
+
+/* Pre-built Animations: fade-in, slide-in, pop, shake. */
+@import url('./animations.css');
