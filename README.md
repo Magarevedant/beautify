@@ -21,7 +21,7 @@
 
 ## 📁 File Structure
 
-```bash
+```
 beautify/
 │
 ├── beautify.css       # Main file to import all modules
@@ -30,38 +30,45 @@ beautify/
 ├── components.css     # Buttons, navbars, cards, alerts, modals
 ├── animations.css     # Animations, hover effects, transitions
 ├── index.html         # Example usage and demo (optional)
-└── README.md          # You’re reading it ✨
+└── README.md          # You’re reading it 
 
 
----
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-1. Clone or Download
+### 1. Clone or Download
 
 
-
+```
 git clone https://github.com/Magarevedant/beautify.git
+```
+### 2. Link in your HTML
 
-2. Link in your HTML
 
-
-
+```
 <link rel="stylesheet" href="beautify.css">
+```
+### 3. Use Utility Classes
 
-3. Use Utility Classes
 
-
-
+```
 <div class="txt-primary bg-light p-2 rounded-sm fade-in">
   Welcome to Beautify.css!
 </div>
+```
+
+## OR
+
+### You can also link beautify directly by pasting the code in head tag of your html file 👇 
+
+``` 
+<link rel="stylesheet" href="https://magarevedant.github.io/beautify/beautify.css">
+``` 
 
 
----
-
-🧱 Example Components
-
+## 🧱 Example Components
+```
 <button class="btn btn-primary hover-bounce">Click Me</button>
 
 <nav class="navbar navbar-dark shadow">
@@ -73,10 +80,10 @@ git clone https://github.com/Magarevedant/beautify.git
   </div>
 </nav>
 
-
+```
 ---
 
-🎯 Roadmap
+## 🎯 Roadmap
 
 [x] Utility classes for spacing, colors, display
 
@@ -100,28 +107,28 @@ git clone https://github.com/Magarevedant/beautify.git
 
 ---
 
-🧑‍💻 Author
+# 🧑‍💻 Author
 
 Developed with ❤️ by Vedant Magare
 
 
 ---
 
-📄 License
+# 📄 License
 
 This project is licensed under the MIT License — free to use, modify, and distribute.
 
 
 ---
 
-🌐 Demo (Coming Soon)
+# 🌐 Demo (Coming Soon)
 
 A live demo or playground will be available soon!
 
 
 ---
 
-🙌 Contribute
+# 🙌 Contribute
 
 Have suggestions or improvements? PRs are welcome!
 
